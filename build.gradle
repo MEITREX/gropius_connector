@@ -63,8 +63,8 @@ graphqlCodegen {
 			"JSON"                        : "java.lang.Object",
 			"DateTimeFilterInput.gt"      : "String", // serialization of OffsetDateTime does not work
 			"Assignment.user"             : "GropiusGropiusUser", // concrete sub type to allow serialization of the user object
-			"TimelineItemConnection.nodes": "de.unistuttgart.iste.meitrex.scrumgame.ims.gropius.GropiusProjections.TimelineItemResponse",
-			"TrackableConnection.nodes"   : "de.unistuttgart.iste.meitrex.scrumgame.ims.gropius.GropiusProjections.TrackableResponse",
+			"TimelineItemConnection.nodes": "de.unistuttgart.iste.meitrex.scrumgame.ims.gropius.executor.GropiusProjections.TimelineItemResponse",
+			"TrackableConnection.nodes"   : "de.unistuttgart.iste.meitrex.scrumgame.ims.gropius.executor.GropiusProjections.TrackableResponse",
 	]
 	modelNamePrefix = "Gropius"
 	generateEqualsAndHashCode = true
